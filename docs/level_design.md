@@ -40,7 +40,7 @@ O jogo conta com **5 níveis sequenciais**. Conforme exigido no edital, a transi
 
 ---
 
-### **Nível 3: A Pirâmide (Geometria Escalonada)**
+### **Nível 2: A Pirâmide (Geometria Escalonada)**
 * **Método:** Formato geométrico simétrico com redução progressiva de colunas.
 * **Objetivo:** Criar um funil de física onde a bola ricocheteia nos ângulos superiores.
 
@@ -55,7 +55,23 @@ O jogo conta com **5 níveis sequenciais**. Conforme exigido no edital, a transi
 
 ---
 
-### **Nível 4: As Colunas e Túneis (Desafio Vertical)**
+### ** Nível 3: Padrão Xadrez (Checkerboard / Lacunas Intercaladas)**
+* **Método:** Matriz com valores intercalados (0 e bloco).
+* **Objetivo:** Exigir maior precisão nos disparos para passar pelas frestas..
+
+```text
+[
+  [3, 0, 3, 0, 3, 0, 3, 0],
+  [0, 3, 0, 3, 0, 3, 0, 3],
+  [2, 0, 2, 0, 2, 0, 2, 0],
+  [0, 2, 0, 2, 0, 2, 0, 2],
+  [1, 0, 1, 0, 1, 0, 1, 0]
+]
+```
+
+---
+
+### **Nível 4: As Colunas e Túneis (Diamante)**
 * **Método:** Blocos dispostos em colunas verticais com espaços vazios intermediários.
 * **Objetivo:** Incentivar o jogador a lançar a bola pelos corredores verticais para prender a bola atrás dos tijolos.
 
@@ -85,7 +101,6 @@ O jogo conta com **5 níveis sequenciais**. Conforme exigido no edital, a transi
 ]
 ```
 
----
 
 ## 3. Algoritmo de Renderização e Colisão no Flame Engine
 
