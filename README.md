@@ -22,6 +22,7 @@ Aplicação móvel desenvolvida para a disciplina de **Projeto Integrador VI-A**
 1. [Ambiente, Tecnologias e Build do APK](docs/tech_stack.md)
 2. [Wireframes e Design das Telas](docs/wireframes.md)
 3. [Lógica e Construção dos Níveis](docs/level_design.md)
+4. [Regras, Áudio e Mecânicas do Jogo](docs/game_rules.md)
 
 ---
 
