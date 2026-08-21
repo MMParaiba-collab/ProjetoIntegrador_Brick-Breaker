@@ -57,3 +57,59 @@ Para entregar o aplicativo executável para dispositivos Android (`.apk`), o pro
 1. **Obter as dependências do projeto:**
    ```bash
    flutter pub get
+
+      ```
+
+2. **Executar em modo de desenvolvimento (Debug):**
+   ```bash
+   flutter run
+   ```
+
+3. **Gerar o arquivo APK de Release (Produção):**
+   ```bash
+   flutter build apk --release
+   ```
+   * O arquivo APK final será gerado no diretório:  
+     `build/app/outputs/flutter-apk/app-release.apk`
+
+4. **Gerar o arquivo APK para testes rápidos (Debug):**
+   ```bash
+   flutter build apk --debug
+   ```
+
+---
+
+## 5. Estrutura de Arquivos e Diretórios do Projeto
+
+A organização do código-fonte segue a estrutura padrão do Flutter separando a lógica do jogo, componentes e interfaces:
+
+```text
+ProjetoIntegrador_Brick-Breaker/
+├── .github/              # Configurações de automação e workflows
+├── android/              # Configurações nativas do Android e manifesto
+├── assets/               # Recursos estáticos (áudios, imagens, fontes)
+│   ├── audio/            # Efeitos sonoros de impacto e transição
+│   └── images/           # Sprites e texturas dos blocos e paddle
+├── docs/                 # Documentação técnica Markdown do projeto
+│   ├── game_rules.md
+│   ├── level_design.md
+│   ├── tech_stack.md
+│   └── wireframes.md
+├── lib/                  # Código-fonte principal em Dart
+│   ├── components/       # Entidades Flame (Ball, Paddle, Brick)
+│   ├── config/           # Constantes, cores e configurações de níveis
+│   ├── screens/          # Telas do app (Home, Configurações, Game, GameOver)
+│   └── main.dart         # Ponto de entrada do aplicativo
+├── .gitignore            # Arquivos ignorados pelo Git
+├── pubspec.yaml          # Gerenciador de dependências e assets do Flutter
+├── README.md             # Página principal e sumário do repositório
+└── Wireframes.png        # Protótipo de alta fidelidade
+```
+
+---
+
+## 6. Considerações de Performance e Compatibilidade
+
+* **Taxa de Quadros (FPS):** O loop de jogo do Flame Engine é otimizado para manter 60 FPS estáveis na maioria dos dispositivos Android modernos.
+* **Orientação de Tela:** O aplicativo é configurado para rodar em modo **Retrato (Portrait)**, otimizando o espaço vertical para o rebatedor e a matriz de tijolos.
+* **Versão Mínima do Android:** Compatível a partir do Android 5.0 (Lollipop / API level 21).
