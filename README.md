@@ -6,8 +6,9 @@ Aplicação móvel desenvolvida para a disciplina de **Projeto Integrador VI-A**
 
 ## Integrantes do Grupo
 
+
 | Integrante | RA |
-|---|---:|
+|:---|:---:|
 | **Matheus Mari Paraiba** | 553170-57 |
 | **Julio Capellari Santos** | 824592-40 |
 | **Jose Carlos Rojas Velasquez** |  |
