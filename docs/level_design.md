@@ -55,7 +55,7 @@ O jogo conta com **5 níveis sequenciais**. Conforme exigido no edital, a transi
 
 ---
 
-### ** Nível 3: Padrão Xadrez (Checkerboard / Lacunas Intercaladas)**
+###  Nível 3: Padrão Xadrez (Checkerboard / Lacunas Intercaladas)**
 * **Método:** Matriz com valores intercalados (0 e bloco).
 * **Objetivo:** Exigir maior precisão nos disparos para passar pelas frestas..
 
