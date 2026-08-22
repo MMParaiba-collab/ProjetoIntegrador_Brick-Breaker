@@ -11,8 +11,8 @@ Aplicação móvel desenvolvida para a disciplina de **Projeto Integrador VI-A**
 |:---|:---:|
 | **Matheus Mari Paraiba** | 553170-57 |
 | **Julio Capellari Santos** | 824592-40 |
-| **Jose Carlos Rojas Velasquez** |  |
-| **Gabriel Silveira Jaiger** |  |
+| **Jose Carlos Rojas Velasquez** | 826985-89 |
+| **Gabriel Silveira Jaiger** | 823496-57 |
   
 
 ---
