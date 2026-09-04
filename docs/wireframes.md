@@ -56,6 +56,10 @@ A tela possui uma listagem com o nome dos integrantes e suas respectivas atribui
 
 Essa tela atende à necessidade de apresentar os integrantes do grupo dentro da aplicação.
 
+![Tela Integrantes](wireframes/integrantes.png)
+
+---
+
 ### 4.3 Tela de Configurações
 
 A Tela de Configurações permite ao usuário definir características visuais que serão utilizadas posteriormente na construção da parede de tijolos.
@@ -69,6 +73,10 @@ A tela também apresenta uma pré-visualização da disposição dos blocos de a
 
 Ao finalizar as alterações, o usuário pode selecionar **SALVAR CONFIGURAÇÕES** para confirmar as escolhas ou **VOLTAR SEM SALVAR** para retornar à Tela Principal sem aplicar as alterações.
 
+![Tela Configs](wireframes/configs.png)
+
+---
+
 
 ## 4.4 Nível 1
 
@@ -80,6 +88,10 @@ Durante a partida, a bola se movimenta pela área de jogo e deve ser rebatida pe
 
 O Nível 1 funciona como ponto inicial da sequência de fases e, após a destruição de todos os tijolos, o usuário é direcionado para o Nível 2.
 
+![Tela N1](wireframes/nivel1.png)
+
+---
+
 
 ## 4.5 Nível 2
 
@@ -88,6 +100,10 @@ O Nível 2 apresenta uma nova configuração da parede de tijolos, utilizando um
 A estrutura dos blocos possui um formato específico, aumentando a variação visual e a dificuldade da fase. A tela mantém os mesmos elementos principais de interação, incluindo a indicação do nível, vidas, bola e paddle.
 
 Após a destruição de todos os blocos, o fluxo do aplicativo direciona o usuário automaticamente para o Nível 3.
+
+![Tela N2](wireframes/nivel2.png)
+
+---
 
 
 ## 4.6 Nível 3
@@ -98,6 +114,10 @@ A organização dos elementos mantém a estrutura principal das fases anteriores
 
 Ao concluir a destruição dos blocos, o usuário avança para o Nível 4.
 
+![Tela N3](wireframes/nivel3.png)
+
+---
+
 
 ## 4.7 Nível 4
 
@@ -107,6 +127,10 @@ A disposição dos tijolos cria uma estrutura mais elaborada para a parede de bl
 
 Após a conclusão da fase, o fluxo direciona o usuário para o Nível 5.
 
+![Tela N4](wireframes/nivel4.png)
+
+---
+
 
 ## 4.8 Nível 5
 
@@ -115,6 +139,10 @@ O Nível 5 representa a última fase do jogo e apresenta uma configuração pró
 A fase mantém os elementos de interação utilizados nos níveis anteriores, permitindo que o jogador controle o paddle para rebater a bola e destruir todos os blocos.
 
 Quando todos os tijolos do Nível 5 são destruídos, o fluxo do aplicativo é direcionado para a Tela de Vitória.
+
+![Tela N5](wireframes/nivel5.png)
+
+---
 
 
 ## 4.9 Tela de Game Over
@@ -127,6 +155,10 @@ A opção de reiniciar permite retornar à fase em que ocorreu a perda das vidas
 
 A tela também mantém a possibilidade de retornar ao fluxo principal do aplicativo por meio das opções apresentadas no wireframe.
 
+![Tela Gameover](wireframes/gameover.png)
+
+---
+
 
 ## 4.10 Tela de Vitória
 
@@ -135,6 +167,10 @@ A Tela de Vitória é apresentada após a conclusão do último nível do jogo.
 Essa tela informa ao usuário que todos os níveis foram concluídos e apresenta a quantidade de estrelas obtidas na partida.
 
 Também é disponibilizada a opção de retornar à Tela Principal, encerrando o fluxo da partida e permitindo que o usuário tenha acesso novamente às funcionalidades principais do aplicativo.
+
+![Tela Ganhou](wireframes/vitoria.png)
+
+---
 
 
 # 5. Considerações sobre o Wireframe
