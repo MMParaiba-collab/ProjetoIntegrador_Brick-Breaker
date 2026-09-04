@@ -44,6 +44,10 @@ A tela possui três opções principais:
 
 A organização da tela prioriza o acesso direto às principais funcionalidades do aplicativo.
 
+![Tela Principal](wireframes/principal.png)
+
+---
+
 ### 4.2 Tela de Integrantes
 
 A Tela de Integrantes apresenta a identificação dos membros da equipe responsáveis pelo desenvolvimento do projeto.
