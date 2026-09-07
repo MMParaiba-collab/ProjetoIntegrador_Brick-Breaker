@@ -71,6 +71,7 @@ Future<void> _startGame() async {
 
     // Remove o menu e inicia a engine
     widget.game.overlays.remove('MainMenu');
+    widget.game.overlays.add('GameHud');
     widget.game.resumeEngine();
   }
 
@@ -246,7 +247,7 @@ void _openSettings() {
   }
 }
 
-// Widget do Logo de Blocos
+// Widget do logo de blocos
 class _BrickLogo extends StatelessWidget {
   const _BrickLogo();
 

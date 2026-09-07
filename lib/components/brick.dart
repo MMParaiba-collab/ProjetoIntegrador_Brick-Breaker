@@ -3,8 +3,9 @@ import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
 import 'ball.dart';
 import 'package:flame_audio/flame_audio.dart';
+import '../brick_breaker_game.dart';
 
-class Brick extends PositionComponent with CollisionCallbacks {
+class Brick extends PositionComponent with HasGameRef<BrickBreakerGame>, CollisionCallbacks {
   Color color;
   int health;
 
@@ -51,6 +52,7 @@ void onCollisionStart(Set<Vector2> intersectionPoints, PositionComponent other) 
     
     // Remove o tijolo do jogo
     removeFromParent();
+    gameRef.checkLevelClearing();
     }
   }
 }
