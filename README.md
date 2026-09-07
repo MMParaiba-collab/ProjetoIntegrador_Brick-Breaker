@@ -23,6 +23,7 @@ Aplicação móvel desenvolvida para a disciplina de **Projeto Integrador VI-A**
 2. [Wireframes e Design das Telas](docs/wireframes.md)
 3. [Lógica e Construção dos Níveis](docs/level_design.md)
 4. [Regras, Áudio e Mecânicas do Jogo](docs/game_rules.md)
+5. [Download do APK (Release Final)](https://github.com/MMParaiba-collab/ProjetoIntegrador_Brick-Breaker/releases/tag/v1.0.0)
 
 ---
 
